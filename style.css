@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Play:wght@400;700&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Play", sans-serif;
+
+}
+
+p{
+    font-size: 24px;
+    text-align: center;
+}
+
+.game{
+    max-width: 100%;
+    min-height: 100vh;
+    background-image: url(images/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number{
+    width: 160px;
+    height: 60px;
+    background-color: #fff;
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.game-container{
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 20px;
+}
+
+.guess{
+    width: 60%;
+    display: block;
+    margin: 0 auto 20px;
+    height: 60px;
+    outline: none;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+
